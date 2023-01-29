@@ -7,7 +7,7 @@ function ExperienceCard({}: Props) {
   return (
     <article className="flex flex-col rounded-lg space-y-7 flex-shrink-0 
     items-center
-    w-[500px] md:w-[600px] lg:w-[900px] lg:text-left snap-center bg-[#292929] pl-20 pr-20 pt-4 pb-16 lg:pl-20 lg:pr-20 lg:pt-4 lg:pb-24  hover:opacity-100 opacity-40 cursor-pointer 
+    w-[500px] md:w-[600px] lg:w-[900px] lg:text-left snap-center bg-[#292929] pl-20 pr-20 pt-4 pb-16 lg:pl-20 lg:pr-20 lg:pt-4 lg:pb-24   cursor-pointer 
     transition-opacity duration-200 overflow-hidden">
       <motion.img
       initial={{
