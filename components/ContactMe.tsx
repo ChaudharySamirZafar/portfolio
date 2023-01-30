@@ -29,20 +29,20 @@ export default function ContactMe({}: Props) {
           <span className="decoration-[#F7AB0A]  underline">Lets talk.</span>
         </h4>
 
-        <div className="space-y-1 md:space-y-3 lg:space-y-3 xl:space-y-3 2xl:space-y-5 hidden md:block">
+        <div className="space-y-1 md:space-y-3 lg:space-y-3 xl:space-y-3 2xl:space-y-5">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-lg md:text-2xl lg:text-2xl">+44 7456979575</p>
+            <PhoneIcon className="text-[#F7AB0A] md:h-7 md:w-7 animate-pulse text-xs w-4 h-4"/>
+            <p className="md:text-2xl lg:text-2xl text-sm">+44 7456979575</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-lg md:text-2xl lg:text-2xl">
+            <EnvelopeIcon className="text-[#F7AB0A] md:h-7 md:w-7 animate-pulse w-4 h-4" />
+            <p className="text-sm md:text-2xl lg:text-2xl">
               chaudharysamirzafar@gmail.com
             </p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-lg md:text-2xl lg:text-2xl">
+            <MapPinIcon className="text-[#F7AB0A] md:h-7 md:w-7 animate-pulse w-4 h-4" />
+            <p className="text-sm md:text-2xl lg:text-2xl">
               Manchester, United Kingdom
             </p>
           </div>
