@@ -29,7 +29,23 @@ function About({}: Props) {
           opacity: 1,
         }}
         viewport={{ once: true }}
-        className=" -mb-24 md:mb-0 flex-shrink-0 w-40 h-46 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
+        className=" -mb-28 flex-shrink-0 w-32 h-32 rounded-full object-cover md:hidden"
+        src="https://drive.google.com/uc?export=view&id=1WMP6KlqqimYqeJ5DEM1E6EOtEZxlvHyO"
+      />
+      <motion.img
+        initial={{
+          x: -200,
+          opacity: 0,
+        }}
+        transition={{
+          duration: 1.2,
+        }}
+        whileInView={{
+          x: 0,
+          opacity: 1,
+        }}
+        viewport={{ once: true }}
+        className=" -mb-24 md:mb-0 flex-shrink-0 w-52 h-52 rounded-full object-cover md:rounded-lg md:w-[250px] md:h-[350px] xl:w-[500px] xl:h-[600px] hidden md:block"
         src="https://drive.google.com/uc?export=view&id=1xCAeMp118wGAe-TZ2rjV0ag9VXnxTIYX"
       />
       <div className="space-y-5 md:space-y-10 px-0 md:px-10">
