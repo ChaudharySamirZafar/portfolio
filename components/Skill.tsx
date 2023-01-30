@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-type Props = { imgSrc: string; level: string; left: boolean };
+type Props = { imgSrc: string; level: string; };
 
-function Skill({ imgSrc, level, left }: Props) {
+function Skill({ imgSrc, level }: Props) {
   return (
     <div className="group relative flex cursor-pointer">
       <motion.img
