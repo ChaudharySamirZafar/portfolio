@@ -7,10 +7,6 @@ function Skill({ imgSrc, level, left }: Props) {
   return (
     <div className="group relative flex cursor-pointer">
       <motion.img
-        initial={{ x: left ? -100 : +100 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.8 }}
-        viewport={{once: true}}
         src={imgSrc}
         className="rounded-full border border-gray-500 object cover w-16 h-16 lg:h-24 lg:w-24 filter group-hover:grayscale transition duration-300 ease-in-out"
       />
