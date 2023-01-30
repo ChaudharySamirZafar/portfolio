@@ -39,14 +39,6 @@ const experience = [
         tag: "Kotlin"
       },
       {
-        url: "https://w7.pngwing.com/pngs/917/862/png-transparent-java-programmer-computer-programming-logo-others-miscellaneous-text-logo.png",
-        tag: "Java"
-      },
-      {
-        url: "https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2022/03/cypress.png?fit=364%2C364&ssl=1",
-        tag: "Cypress"
-      },
-      {
         url: "https://image.pngaaa.com/384/3822384-middle.png",
         tag: "AWS"
       }

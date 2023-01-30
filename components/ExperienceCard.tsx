@@ -21,7 +21,7 @@ function ExperienceCard({
   return (
     <article
       className="flex flex-col rounded-lg flex-shrink-0 
-    items-center
+    items-center text-center
     w-[500px] md:w-[600px] lg:w-[900px] lg:text-left snap-center bg-[#292929] pl-20 pr-20 pt-4 pb-16 lg:pl-20 lg:pr-20 lg:pt-4 lg:pb-24   cursor-pointer 
     transition-opacity duration-200 overflow-hidden"
     >
@@ -40,14 +40,14 @@ function ExperienceCard({
         viewport={{
           once: true,
         }}
-        className="w-24 h-24 rounded-full md:rounded-full object-cover object-center xl:w-[150px] xl:h-[150px] self-center"
+        className="w-20 h-20 rounded-full md:rounded-full object-cover object-center xl:w-[150px] xl:h-[150px] self-center"
         src={imageSource}
       />
       <div className="px-0 md:px-10">
-        <h4 className="text-2xl font-light lg:text-4xl">{positionName}</h4>
-        <p className="font-bold text-1xl mt-1 lg:text-2xl">{companyName}</p>
+        <h4 className="text-sm font-light lg:text-4xl">{positionName}</h4>
+        <p className="font-bold text-sm mt-1 lg:text-2xl">{companyName}</p>
         {skills.length > 0 && <p className="font-semibold text-2xl">Skills</p>}
-        <div className="flex space-x-2 my-2">
+        <div className="flex space-x-2 my-2 items-center justify-center">
           {skills.map((element) => {
             return (
               <div className="flex flex-col items-center" key={element.url}>
@@ -60,8 +60,10 @@ function ExperienceCard({
             );
           })}
         </div>
-        <p className="uppercase py-2 text-gray-300">{time}</p>
-        <ul className="list-disc ml-5 text-sm lg:text-base">
+        <p className="text-sm lg:text-lg uppercase py-2 text-gray-300">
+          {time}
+        </p>
+        <ul className="px-0 md:px-10 list-disc pr-5 text-justify ml-0 text-sm md:text-sm pl-5">
           {description.map((element) => {
             return <li key={element}>{element}</li>;
           })}

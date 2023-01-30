@@ -29,15 +29,15 @@ function About({}: Props) {
           x: 0,
         }}
         src="https://drive.google.com/uc?export=view&id=1xCAeMp118wGAe-TZ2rjV0ag9VXnxTIYX"
-        className="mt-32 md:mb-0 flex-shrink-0 w-56 h-90 rounded-full object cover md:rounded-lg md:w-64 md:h-96 xl:w-[400px] xl:h-[600px]"
+        className="mt-10 md:mt-0 md:mb-0 flex-shrink-0 w-38 h-48 rounded-full object cover md:rounded-lg md:w-64 md:h-96 xl:w-[400px] xl:h-[600px]"
       />
-      <div className="space-y-10 px-0 md:px-10">
-        <h4 className="text-4xl font-semibold">
+      <div className="space-y-2 px-2 md:px-10">
+        <h4 className="text-2xl font-semibold  lg:text-4xl">
           Here is a{" "}
           <span className="underline decoration-[#F7AB0A]/50">little</span>{" "}
           background
         </h4>
-        <p>
+        <p className="text-sm lg:text-lg">
           I am Samir Zafar, a computer science student in my final year of
           university. I possess a strong passion for creating innovative and
           impactful software solutions. I have gained valuable experience in
