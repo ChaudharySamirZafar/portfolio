@@ -5,9 +5,7 @@ import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import WorkExperience from "@/components/WorkExperience";
-import { HomeIcon } from "@heroicons/react/24/solid";
 import Head from "next/head";
-import Link from "next/link";
 
 export default function Home() {
   return (
